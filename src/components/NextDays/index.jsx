@@ -1,5 +1,5 @@
 import './styles.css';
-import { NextDaysItem } from '../NextDaysItem';
+import { NextDaysItem } from '../NextDaysItem/index.tsx';
 
 export function NextDays({ data }) {
   return (
