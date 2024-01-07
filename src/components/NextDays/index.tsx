@@ -1,7 +1,11 @@
 import './styles.css';
-import { NextDaysItem } from '../NextDaysItem/index.tsx';
+import { NextDaysItem, NextDaysitemProps } from '../NextDaysItem';
 
-export function NextDays({ data }) {
+interface Props {
+  data: NextDaysitemProps[];
+}
+
+export function NextDays({ data }: Props) {
   return (
     <section className='next-days'>
       <h1>Previsão para 5 dias</h1>
