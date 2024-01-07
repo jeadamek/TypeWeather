@@ -13,6 +13,7 @@ export function Dashboard() {
   const [isLoading, setIsLoading] = useState(true);
   const [city, setCity] = useState(JSON.parse(localStorage.getItem('@typewheather:city')));
 
+  // test commit
   useEffect(() => {
     setIsLoading(true);
 
